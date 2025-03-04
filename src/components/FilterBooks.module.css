@@ -1,0 +1,13 @@
+.filterSelect {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: border-color 0.3s;
+  }
+  
+  .filterSelect:hover {
+    border-color: #007bff;
+  }
+  

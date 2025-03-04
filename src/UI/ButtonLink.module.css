@@ -1,0 +1,10 @@
+.button {
+    padding: 10px 20px;
+    background: #402f11;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: ease 0.3s;
+  }
+  

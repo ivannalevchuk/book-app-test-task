@@ -1,0 +1,105 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "title": "Harry Potter and the Philosopher's Stone",
+      "author": "J.K. Rowling",
+      "isbn": "0747123456789",
+      "category": "Fantasy",
+      "createdDate": "2021-01-01",
+      "modifiedDate": "2025-03-04T19:50:09.697Z",
+      "isActivated": true
+    },
+    {
+      "id": "4dc8",
+      "title": "rewrewr",
+      "author": "rewrwer",
+      "category": "Fiction",
+      "isbn": "34324324",
+      "createdDate": "2025-03-04T16:07:25.609Z",
+      "isActivated": true
+    },
+    {
+      "id": "a0f2",
+      "title": "sdfsd",
+      "author": "ssdf",
+      "category": "Fiction",
+      "isbn": "1234567891234",
+      "createdDate": "2025-03-04T18:18:00.234Z",
+      "isActivated": true
+    },
+    {
+      "id": "98ab",
+      "title": "1984",
+      "author": "Orwell",
+      "category": "Non-Fiction",
+      "isbn": "7894561237795",
+      "createdDate": "2025-03-04T18:47:24.188Z",
+      "isActivated": true,
+      "modifiedDate": "2025-03-04T18:47:34.654Z"
+    },
+    {
+      "id": "16c5",
+      "title": "dfgfdg",
+      "author": "gfdgfd",
+      "category": "Fiction",
+      "isbn": "1234567891234",
+      "createdDate": "2025-03-04T18:56:13.453Z",
+      "isActivated": true
+    },
+    {
+      "id": "6cba",
+      "title": "ggfd",
+      "author": "dfgf",
+      "category": "Fiction",
+      "isbn": "1234567891234",
+      "createdDate": "2025-03-04T19:27:04.994Z",
+      "isActivated": true
+    },
+    {
+      "id": "28fa",
+      "title": "fsdfsd",
+      "author": "fsdfsf",
+      "category": "Fiction",
+      "isbn": "1234567891234",
+      "createdDate": "2025-03-04T19:29:11.361Z",
+      "isActivated": true
+    },
+    {
+      "id": "58ff",
+      "title": "sdfsdf",
+      "author": "fsdf",
+      "category": "Fiction",
+      "isbn": "1234567891234",
+      "createdDate": "2025-03-04T20:04:38.847Z",
+      "isActivated": true
+    },
+    {
+      "id": "2b65",
+      "title": "gdfg",
+      "author": "gdfg",
+      "category": "Fiction",
+      "isbn": "1234567891234",
+      "createdDate": "2025-03-04T20:06:38.963Z",
+      "isActivated": true
+    },
+    {
+      "id": "5a3a",
+      "title": "sdfsd",
+      "author": "fdsff",
+      "category": "Fiction",
+      "isbn": "1234567891234",
+      "createdDate": "2025-03-04T20:07:20.313Z",
+      "isActivated": true
+    },
+    {
+      "id": "a18a",
+      "title": "fsdfsdf",
+      "author": "fsdfd",
+      "category": "Fiction",
+      "isbn": "1234567891234",
+      "createdDate": "2025-03-04T20:08:28.279Z",
+      "isActivated": true
+    }
+  ]
+}

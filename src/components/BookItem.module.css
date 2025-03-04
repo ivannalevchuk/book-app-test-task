@@ -1,0 +1,58 @@
+
+.deactivatedBook {
+    background-color: #f0f0f0;
+    color: #999;
+    font-style: italic;
+} 
+
+.edit, .delete, .activate, .deactivate {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    transition: 0.3s;
+}
+
+.edit {
+    background-color: #dbad5d;
+    color: white;
+    text-decoration: none;
+}
+
+
+.edit:hover {
+    background-color: #fac20b;
+}
+
+.delete {
+    background-color: #85433e;
+    color: white;
+    margin-left: 10px;
+}
+
+.delete:hover {
+    background-color: #d32f2f;
+}
+
+.activate {
+    background-color: #2196F3;
+    color: white;
+    margin-left: 10px;
+}
+
+.activate:hover {
+    background-color: #0774ce;
+}
+
+.deactivate {
+    background-color: #615c5c;
+    color: white;
+    margin-left: 10px;
+}
+
+.deactivate:hover {
+    background-color: #3b3a3a;
+}

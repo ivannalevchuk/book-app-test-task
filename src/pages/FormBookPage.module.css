@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    position: relative;
+    width: 100%;
+    padding: 10px 0;
+  }
+  
+  .buttonBack {
+    position: absolute;
+  left: 20px;
+  }
+  
+  .title {
+    flex: 1;
+    text-align: center;
+    margin: 0;
+  }

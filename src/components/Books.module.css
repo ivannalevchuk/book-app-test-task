@@ -1,0 +1,66 @@
+.booksContainer {
+    display: flex;
+    justify-content: center;
+}
+
+/* .booksList {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+.booksList li {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.booksHeader {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-weight: bold;
+    border-bottom: 2px solid #ccc;
+    background-color: #f5f5f5;
+  }
+  
+  .column {
+    flex: 1;
+    text-align: center;
+    padding: 5px;
+  } */
+
+  .booksTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .booksTable th, .booksTable td {
+    padding: 12px 16px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .booksTable th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .booksTable tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .booksTable tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .booksTable td:last-child {
+    text-align: center;
+  }
