@@ -11,94 +11,42 @@
       "isActivated": true
     },
     {
-      "id": "4dc8",
-      "title": "rewrewr",
-      "author": "rewrwer",
-      "category": "Fiction",
-      "isbn": "34324324",
-      "createdDate": "2025-03-04T16:07:25.609Z",
+      "id": "2",
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "isbn": "9780261103283",
+      "category": "Fantasy",
+      "createdDate": "2023-03-01",
+      "modifiedDate": "2025-03-05T10:30:56.777Z",
       "isActivated": true
     },
     {
-      "id": "a0f2",
-      "title": "sdfsd",
-      "author": "ssdf",
+      "id": "3",
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "isbn": "9780241950425",
       "category": "Fiction",
-      "isbn": "1234567891234",
-      "createdDate": "2025-03-04T18:18:00.234Z",
+      "createdDate": "2021-01-01",
+      "modifiedDate": "2025-03-05T10:31:22.954Z",
       "isActivated": true
     },
     {
-      "id": "98ab",
+      "id": "4",
       "title": "1984",
-      "author": "Orwell",
-      "category": "Non-Fiction",
-      "isbn": "7894561237795",
-      "createdDate": "2025-03-04T18:47:24.188Z",
-      "isActivated": true,
-      "modifiedDate": "2025-03-04T18:47:34.654Z"
-    },
-    {
-      "id": "16c5",
-      "title": "dfgfdg",
-      "author": "gfdgfd",
+      "author": "George Orwell",
+      "isbn": "0451524934097",
       "category": "Fiction",
-      "isbn": "1234567891234",
-      "createdDate": "2025-03-04T18:56:13.453Z",
+      "createdDate": "2021-03-10",
+      "modifiedDate": "2025-03-05T10:30:10.479Z",
       "isActivated": true
     },
     {
-      "id": "6cba",
-      "title": "ggfd",
-      "author": "dfgf",
+      "id": "ab4c",
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
       "category": "Fiction",
-      "isbn": "1234567891234",
-      "createdDate": "2025-03-04T19:27:04.994Z",
-      "isActivated": true
-    },
-    {
-      "id": "28fa",
-      "title": "fsdfsd",
-      "author": "fsdfsf",
-      "category": "Fiction",
-      "isbn": "1234567891234",
-      "createdDate": "2025-03-04T19:29:11.361Z",
-      "isActivated": true
-    },
-    {
-      "id": "58ff",
-      "title": "sdfsdf",
-      "author": "fsdf",
-      "category": "Fiction",
-      "isbn": "1234567891234",
-      "createdDate": "2025-03-04T20:04:38.847Z",
-      "isActivated": true
-    },
-    {
-      "id": "2b65",
-      "title": "gdfg",
-      "author": "gdfg",
-      "category": "Fiction",
-      "isbn": "1234567891234",
-      "createdDate": "2025-03-04T20:06:38.963Z",
-      "isActivated": true
-    },
-    {
-      "id": "5a3a",
-      "title": "sdfsd",
-      "author": "fdsff",
-      "category": "Fiction",
-      "isbn": "1234567891234",
-      "createdDate": "2025-03-04T20:07:20.313Z",
-      "isActivated": true
-    },
-    {
-      "id": "a18a",
-      "title": "fsdfsdf",
-      "author": "fsdfd",
-      "category": "Fiction",
-      "isbn": "1234567891234",
-      "createdDate": "2025-03-04T20:08:28.279Z",
+      "isbn": "0743273567093",
+      "createdDate": "2025-03-05T10:32:05.893Z",
       "isActivated": true
     }
   ]

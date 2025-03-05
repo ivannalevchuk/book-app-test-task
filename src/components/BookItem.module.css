@@ -14,12 +14,14 @@
     font-weight: bold;
     font-style: normal;
     transition: 0.3s;
+    margin-top: 10px;
 }
 
 .edit {
     background-color: #dbad5d;
     color: white;
     text-decoration: none;
+   
 }
 
 
@@ -30,7 +32,6 @@
 .delete {
     background-color: #85433e;
     color: white;
-    margin-left: 10px;
 }
 
 .delete:hover {
@@ -40,7 +41,7 @@
 .activate {
     background-color: #2196F3;
     color: white;
-    margin-left: 10px;
+    margin-top: 10px;
 }
 
 .activate:hover {
@@ -50,9 +51,15 @@
 .deactivate {
     background-color: #615c5c;
     color: white;
-    margin-left: 10px;
 }
 
 .deactivate:hover {
     background-color: #3b3a3a;
+}
+
+.actions{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+    justify-content: center;
 }

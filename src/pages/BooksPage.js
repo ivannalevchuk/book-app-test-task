@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Link, useLoaderData, redirect, useActionData } from "react-router-dom";
+import { useLoaderData, redirect } from "react-router-dom";
 import BooksList from "../components/Books";
 import FilterBooks from "../components/FilterBooks";
 import styles from "./BooksPage.module.css";
@@ -7,7 +7,6 @@ import Button from "../UI/ButtonLink";
 
 const BooksPage = () => {
   const books = useLoaderData();
-  console.log(books);
   const [booksList, setBooksList] = useState(books);
 
   useEffect(() => {

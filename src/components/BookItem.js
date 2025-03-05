@@ -1,5 +1,5 @@
-import { useState, useEffect } from "react";
-import { Link, useFetcher, useSubmit } from "react-router-dom";
+import { useState } from "react";
+import { Link, useFetcher } from "react-router-dom";
 import { dateFormatter } from "../util/dateFormatter";
 import styles from "./BookItem.module.css";
 
@@ -28,7 +28,6 @@ const BookItem = ({ book }) => {
           fetcher.load("/");
         }
       });
-     
     }
   };
   return (
@@ -44,6 +43,7 @@ const BookItem = ({ book }) => {
       <td>{dateFormatter(book.createdDate)}</td>
       <td>{book.modifiedDate ? dateFormatter(book.modifiedDate) : "-"}</td>
       <td>
+        <div className={styles.actions}>
         <Link to={`${book.id}`} className={styles.edit}>Edit</Link>
         {!isBookActivated && (
           <button className={styles.delete} onClick={handleDelete}>
@@ -54,8 +54,9 @@ const BookItem = ({ book }) => {
           className={!isBookActivated ? styles.activate : styles.deactivate}
           onClick={toggleActivated}
         >
-          {isBookActivated ? "Deactivate" : "Re-Activate"}
+          {isBookActivated ? "Deactivate" : "Activate"}
         </button>
+        </div>
       </td>
     </tr>
   );
